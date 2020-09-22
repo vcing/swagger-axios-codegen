@@ -63,7 +63,7 @@ jspm_packages/
 .next
 
 /output/**
-/dist/**
+# /dist/**
 /api/**
 __src
 /example/swagger/services
