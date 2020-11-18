@@ -99,10 +99,6 @@ function toBaseType(s, format) {
         case 'string':
         case 'uuid':
             switch (format) {
-                case 'date':
-                case 'date-time':
-                    result = 'Date';
-                    break;
                 default:
                     result = 'string';
             }
